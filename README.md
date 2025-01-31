@@ -29,4 +29,4 @@ Channel: https://t.me/shrimp_to_whale
     - auto detection - soft will scan wallet balances in 3 popular networks (Arbitrum, Optimism, Base) and choose network with the highest ETH balance
  - Bridged to:
     - EVM chains - fill out destination network by yourself (Abstract, Scroll, Linea, etc.)
-    - eclipse - bridge to eclipse netwrok (`Eclipse_mnemonics_or_privates.txt` file must me filled out)
+    - eclipse - bridge to eclipse network (`Eclipse_mnemonics_or_privates.txt` file must be filled out)
