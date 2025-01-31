@@ -3,12 +3,12 @@
 Channel: https://t.me/shrimp_to_whale
 
 **MAIN INFO**
-- **Row-by-Row Data Processing**: Each line in `Privated.txt` ALWAYS corresponds to the same line in `Proxies.txt` (e.g., line 1 in `Privates.txt` matches line 1 in `Proxies.txt`, line 5 matches line 5, and so on).
-- **Proxy Region Handling**: If the location of your proxies is identified as a restricted region for receiving the airdrop, the software will continue registering the account using a local IP address (with a corresponding warning logged).
-- **Results Logging**: Upon completion, all successful or failed accounts (addresses) will be saved to the project directory in `Success_accs.txt` and `Failed_accs.txt`, respectively.
+- **Row-by-Row Data Processing**: Each line in `Evm_privates.txt` ALWAYS corresponds to the same line in `Eclipse_mnemonics_or_privates.txt` and `Proxies.txt` (e.g., line 1 in `Evm_privates.txt` matches line 1 in `Eclipse_mnemonics_or_privates.txt` and `Proxies.txt`, line 5 matches line 5, and so on).
+- **Results Logging**: Upon completion, all successful or failed accounts will be saved to Project_directory\Results\date-time folder in `Success.txt` and `Error.txt` files, respectively.
 
 
 **Files that need to be filled out**
 
-`Privates.txt` - Private keys of your accounts.
+`Eclipse_mnemonics_or_privates.txt` - private keys of your EVM accounts.
+`Eclipse_mnemonics_or_privates.txt` - private keys or mneminucs of your Eclipse accounts. (not mandatory)
 `Proxies.txt` - proxies in the api:port:login:password format.
