@@ -21,6 +21,12 @@ Channel: https://t.me/shrimp_to_whale
  - Retries - number of retries in case of failure
  - Delay - delay range (in seconds) between wallets
  - Shuffle wallets - (✓ - YES, □ - NO)
- - Bridge type
-    - Range
-    - Max
+ - Bridge type:
+    - range - bridge random number in specified range
+    - max - bridge all ETH balance in specified network
+ - Bridged from:
+    - manual choise - fill out start network by yourself (Blast, Optimism, Zksync, etc.)
+    - auto detection - soft will scan wallet balances in 3 popular networks (Arbitrum, Optimism, Base) and choose network with the highest ETH balance
+ - Bridged to:
+    - EVM chains - fill out destination network by yourself (Abstract, Scroll, Linea, etc.)
+    - eclipse - bridge to eclipse netwrok (`Eclipse_mnemonics_or_privates.txt` file must me filled out)
