@@ -13,7 +13,7 @@ Channel: https://t.me/shrimp_to_whale
 **Files that need to be filled out**
 
 - `Eclipse_mnemonics_or_privates.txt` - private keys of your EVM accounts.
-- `Eclipse_mnemonics_or_privates.txt` - private keys or mneminucs of your Eclipse accounts. (not mandatory)
+- `Eclipse_mnemonics_or_privates.txt` - private keys or mnemonics of your Eclipse accounts. (not mandatory)
 - `Proxies.txt` - proxies in the api:port:login:password format.
 
 **Settings**
