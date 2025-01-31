@@ -22,5 +22,5 @@ Channel: https://t.me/shrimp_to_whale
  - Delay - delay range (in seconds) between wallets
  - Shuffle wallets - (✓ - YES, □ - NO)
  - Bridge type
-       - Range
-       - Max
+    - Range
+    - Max
